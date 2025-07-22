@@ -114,7 +114,7 @@ export function appReducer(state: any = INITIAL_APPLICATION_STATE, action: any) 
 
 
 @NgModule({
-    declarations: [decelerations],
+    declarations: [...decelerations],
     imports: [
         BrowserModule,
         FormsModule,
